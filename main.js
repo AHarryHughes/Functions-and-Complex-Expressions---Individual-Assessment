@@ -82,4 +82,6 @@ function greet(x){return "Hello, "+x;}
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // A:
-function sum(x,y,z,a){return "The "+x+" jumped over the "+y+", while "+z+" turnin\' up at "+a+"\'s house" ;}
+function madlib(x,y,z,a){return "The "+x+" jumped over the "+y+", while "+z+" turnin\' up at "+a+"\'s house" ;}
+
+console.log(madlib("fox","fence","jacob","quavo"))
