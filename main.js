@@ -30,7 +30,7 @@ function maxOfThree(x, y, z){
 function isVowel(char){
     // Your answer here
     switch (char) {
-      case a, e, i, o, u:
+      case a: case e: case i: case o: case u:
         return true;
         break;
       default:
@@ -42,7 +42,9 @@ function isVowel(char){
 // 4.
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
 // A:
-function sum(x,y){return x+y;}
+function sum(x,y){
+  return x+y;
+}
 
 
 // 5.
